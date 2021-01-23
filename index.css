@@ -17,6 +17,14 @@ body {
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
 /* main-section */
 
 .main-section {
@@ -26,12 +34,15 @@ body {
 .main-section-title {
     color: #536130;
     min-width: 250px;
+    font-size: 2em;
 }
 
 .main-section-subtitle {
     color: #2F3D0D;
     font-weight: 800;
     min-width: 250px;
+    font-size: 1.6em;
+    margin: 10px;
 }
 
 .main-section-image {
@@ -71,7 +82,7 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .secondary-section-item {
         width: 80vw;
     }
@@ -122,4 +133,10 @@ body {
     .tertiary-section img {
         width: 80vw;
     }
+}
+
+/* footer  */
+
+.footer {
+    margin: 30px;
 }
