@@ -1,0 +1,10 @@
+body {
+    padding: 3%;
+    background-color: darkgray;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
