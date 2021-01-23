@@ -1,11 +1,14 @@
 /* Photo by <a href="/photographer/azjack2008-61100">Jack Sanders</a> from <a href="https://freeimages.com/">FreeImages</a> */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    padding: 3%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    
+    font-size: 1em;
 }
 
 .uppercase {
@@ -13,6 +16,11 @@ body {
 }
 
 /* main section */
+
+.main-section {
+    background-color: darkgreen;
+}
+
 .main-section-title {
     color: #536130;
 }
@@ -29,6 +37,12 @@ body {
 .main-section-titles {
     width: 100%;
     position: absolute;
-    top: 15%;
+    top: 10%;
     text-align: center;
+}
+
+/* secondary-section */
+
+.secondary-section {
+    background-color: #454545;
 }
